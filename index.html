@@ -13,17 +13,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>\w+ussy generator</title>
+    <title>\w+uncle generator</title>
     <script>
         function generateRandomString() {
-            const length = Math.floor(Math.random() * 10) + 1;
+            const length = Math.floor(Math.random() * 3) + 1;
             let result = '';
             const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
             for (let i = 0; i < length; i++) {
                 result += characters.charAt(Math.floor(Math.random() * characters.length
 ));
             }
-            return result + "ussy";
+            return result + "uncle";
         }
 
         function updateWord() {
@@ -32,10 +32,10 @@
     </script>
 </head>
 <body onload="updateWord()">
-    <h1>\w+ussy generator</h1>
+    <h1>\w+uncle generator</h1>
     <p id="random-word" style="font-size: 24px;"></p>
     <button onclick="updateWord()">Refresh</button>
 </body>
-<p>This tool generates novel words matching the  <code>\w+ussy</code> regular expression.  It is clear that humanity is in need of an increasing number of words of this style, as evidenced by the explosion in novel terms matching this regex in the past 15 years.  This tool can aid vocabulary developers in exploring hitherto unknown spaces.
+<p>
 </p>
 </html>
